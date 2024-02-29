@@ -59,7 +59,7 @@ li {
 }
 
 .header {
-  background-image: url('../images/header-bg.jpg');
+  background-image: url('./images/header-bg.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
