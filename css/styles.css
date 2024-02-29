@@ -173,3 +173,35 @@ li {
 .footer-text p {
   margin-right: 67px;
 }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav .tel {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .description {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .description {
+    flex-direction: column;
+  }
+
+  .gallery {
+    flex-direction: column; 
+  }
+}
